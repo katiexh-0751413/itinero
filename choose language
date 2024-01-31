@@ -1,0 +1,313 @@
+VStack(alignment: .leading, spacing: 0){
+	ScrollView(){
+		VStack(alignment: .leading, spacing: 0) {
+			Group{
+				HStack(alignment: .top, spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 28, height: 11, alignment: .leading)
+						.padding(.top,17)
+					}
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 219, height: 30, alignment: .leading)
+						.padding(.trailing,24)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 17, height: 10, alignment: .leading)
+						.padding(.top,17)
+						.padding(.trailing,5)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 15, height: 10, alignment: .leading)
+						.padding(.top,17)
+						.padding(.trailing,6)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 24, height: 11, alignment: .leading)
+						.padding(.top,17)
+					}
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.padding(.bottom,62)
+				.padding(.horizontal,15)
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 38, height: 45, alignment: .leading)
+					.padding(.bottom,38)
+					.padding(.horizontal,38)
+				}
+				Text("Choose the language")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 30))
+				.fontWeight(.bold)
+				.padding(.bottom,36)
+				.padding(.leading,38)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 16, height: 16, alignment: .leading)
+						.padding(.trailing,10)
+					}
+					Text("Search")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.frame(maxWidth: .infinity)
+				}
+				.padding(.vertical,20)
+				.padding(.horizontal,16)
+				.frame(height: 56)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#fdfdfd"))
+				.cornerRadius(10)
+				.overlay(RoundedRectangle(cornerRadius: 10)
+				.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				.padding(.bottom,28)
+				.padding(.horizontal,31)
+				HStack(alignment: .top, spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						HStack(spacing: 0){
+							Text("🇺🇸")
+							.foregroundColor(Color(hex: "#000000"))
+							.font(.system(size: 30))
+							.fontWeight(.bold)
+							.padding(.trailing,19)
+							Text("English (American)")
+							.foregroundColor(Color(hex: "#333333"))
+							.font(.system(size: 16))
+							.fontWeight(.bold)
+							VStack(alignment: .leading, spacing: 0){
+							}
+							.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+							ZStack{
+								URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+									image in
+									image
+									.resizable()
+								}
+								.frame(width : 20, height: 12, alignment: .leading)
+								VStack(alignment: .leading, spacing: 0){
+									URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+										image in
+										image
+										.resizable()
+										.frame(height: 5)
+										.frame(maxWidth: .infinity, alignment: .leading)
+										.padding(.top,7)
+									}
+								}
+								.padding(.horizontal,5)
+								.frame(width : 20, height: 12, alignment: .leading)
+							}
+						}
+						.padding(.vertical,11)
+						.padding(.horizontal,10)
+						.frame(height: 52)
+						.frame(maxWidth: .infinity)
+						.background(Color(hex: "#f4f5f6"))
+						.cornerRadius(10)
+						.overlay(RoundedRectangle(cornerRadius: 10)
+						.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+						.padding(.bottom,15)
+						HStack(spacing: 0){
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(width : 30, height: 30, alignment: .leading)
+								.padding(.trailing,19)
+							}
+							Text("Italian")
+							.foregroundColor(Color(hex: "#333333"))
+							.font(.system(size: 16))
+							.fontWeight(.bold)
+							.frame(maxWidth: .infinity)
+						}
+						.frame(height: 30)
+						.frame(maxWidth: .infinity)
+						.padding(.horizontal,10)
+					}
+					.frame(width : 394, height: 97, alignment: .leading)
+					Spacer()
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(width : 3, height: 77, alignment: .leading)
+					.background(Color(hex: "#606060"))
+					.cornerRadius(1.5)
+					.padding(.top,35)
+				}
+				.frame(height: 112)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.padding(.bottom,8)
+			}
+			Group{
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,18)
+					}
+					Text("Chinese")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,25)
+				.padding(.horizontal,28)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,19)
+					}
+					Text("French")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,25)
+				.padding(.horizontal,28)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,18)
+					}
+					Text("German")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,25)
+				.padding(.horizontal,28)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,18)
+					}
+					Text("Spanish")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,25)
+				.padding(.horizontal,28)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,19)
+					}
+					Text("Russian")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,25)
+				.padding(.horizontal,28)
+			}
+			Group{
+				HStack(spacing: 0){
+					Text("🇻🇳")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 30))
+					.fontWeight(.bold)
+					.padding(.trailing,18)
+					Text("Vietnamese")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,29)
+				.padding(.horizontal,28)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.trailing,19)
+					}
+					Text("English (U.K.)")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+					.frame(maxWidth: .infinity)
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,39)
+				.padding(.horizontal,28)
+				VStack(spacing: 0){
+					Text("Continue")
+					.foregroundColor(Color(hex: "#fdfdfd"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+				}
+				.padding(.vertical,21)
+				.frame(height: 58)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#219ebc"))
+				.cornerRadius(10)
+				.padding(.horizontal,36)
+			}
+		}
+		.padding(.bottom,28)
+	}
+	.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+	.background(Color(hex: "#fdfdfd"))
+}
+.padding(.top,0.1)
+.padding(.bottom,0.1)
+.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+.background(Color(hex: "#FFFFFF"))
