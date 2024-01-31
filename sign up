@@ -1,0 +1,332 @@
+VStack(alignment: .leading, spacing: 0){
+	ScrollView(){
+		VStack(alignment: .leading, spacing: 0) {
+			Group{
+				HStack(alignment: .top, spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 28, height: 11, alignment: .leading)
+						.padding(.top,17)
+					}
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 219, height: 30, alignment: .leading)
+						.padding(.trailing,25)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 17, height: 10, alignment: .leading)
+						.padding(.top,17)
+						.padding(.trailing,5)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 15, height: 10, alignment: .leading)
+						.padding(.top,17)
+						.padding(.trailing,5)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 24, height: 11, alignment: .leading)
+						.padding(.top,17)
+					}
+				}
+				.frame(height: 30)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.padding(.bottom,41)
+				.padding(.horizontal,15)
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(height: 57)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.bottom,63)
+					.padding(.horizontal,132)
+				}
+				Text("Sign up")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 30))
+				.fontWeight(.bold)
+				.padding(.bottom,45)
+				.padding(.leading,41)
+				Text("Name")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 14))
+				.padding(.bottom,7)
+				.padding(.leading,41)
+				HStack(spacing: 0){
+					Text("Your name")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 16))
+					.frame(maxWidth: .infinity)
+					.padding(.trailing,4)
+					ZStack{
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+						}
+						.frame(width : 20, height: 12, alignment: .leading)
+						VStack(alignment: .leading, spacing: 0){
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(height: 5)
+								.frame(maxWidth: .infinity, alignment: .leading)
+								.padding(.top,7)
+							}
+						}
+						.padding(.horizontal,6)
+						.frame(width : 20, height: 12, alignment: .leading)
+					}
+				}
+				.padding(.vertical,16)
+				.padding(.horizontal,17)
+				.frame(height: 48)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#fdfdfd"))
+				.cornerRadius(10)
+				.overlay(RoundedRectangle(cornerRadius: 10)
+				.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				.padding(.bottom,24)
+				.padding(.horizontal,38)
+			}
+			Group{
+				Text("Email")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 14))
+				.padding(.bottom,7)
+				.padding(.leading,41)
+				VStack(alignment: .leading, spacing: 0){
+					Text("user@example.com")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 16))
+				}
+				.padding(.vertical,22)
+				.padding(.horizontal,18)
+				.frame(height: 60)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color(hex: "#fdfdfd"))
+				.cornerRadius(10)
+				.overlay(RoundedRectangle(cornerRadius: 10)
+				.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				.padding(.bottom,25)
+				.padding(.horizontal,38)
+				Text("Create a password")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 14))
+				.padding(.bottom,7)
+				.padding(.leading,40)
+				HStack(spacing: 0){
+					Text("Must be 8 Characters")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 16))
+					.frame(maxWidth: .infinity)
+					.padding(.trailing,4)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 17, height: 13, alignment: .leading)
+					}
+				}
+				.padding(.vertical,21)
+				.padding(.horizontal,18)
+				.frame(height: 58)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#fdfdfd"))
+				.cornerRadius(10)
+				.overlay(RoundedRectangle(cornerRadius: 10)
+				.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				.padding(.bottom,25)
+				.padding(.horizontal,38)
+				Text("Confirm password")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 14))
+				.padding(.bottom,7)
+				.padding(.leading,40)
+			}
+			Group{
+				HStack(spacing: 0){
+					Text("Repeat Password")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 16))
+					.frame(maxWidth: .infinity)
+					.padding(.trailing,4)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 17, height: 13, alignment: .leading)
+					}
+				}
+				.padding(.vertical,21)
+				.padding(.horizontal,18)
+				.frame(height: 58)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#fdfdfd"))
+				.cornerRadius(10)
+				.overlay(RoundedRectangle(cornerRadius: 10)
+				.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				.padding(.bottom,38)
+				.padding(.horizontal,38)
+				VStack(spacing: 0){
+					Text("Sign up")
+					.foregroundColor(Color(hex: "#fdfdfd"))
+					.font(.system(size: 16))
+					.fontWeight(.bold)
+				}
+				.padding(.vertical,21)
+				.frame(height: 58)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#219ebc"))
+				.cornerRadius(10)
+				.padding(.bottom,36)
+				.padding(.horizontal,38)
+				HStack(spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(width : 113, height: 1, alignment: .leading)
+					.background(Color(hex: "#d8dadc"))
+					Spacer()
+					Text("Or Register with")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 14))
+					Spacer()
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(width : 113, height: 1, alignment: .leading)
+					.background(Color(hex: "#d8dadc"))
+				}
+				.frame(height: 14)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,28)
+				.padding(.horizontal,38)
+				HStack(spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(height: 18)
+							.frame(maxWidth: .infinity, alignment: .leading)
+							.padding(.top,19)
+						}
+					}
+					.padding(.horizontal,50)
+					.frame(width : 108, height: 37, alignment: .leading)
+					.background(Color(hex: "#fdfdfd"))
+					.cornerRadius(10)
+					.overlay(RoundedRectangle(cornerRadius: 10)
+					.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+					Spacer()
+					HStack(spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 8, height: 8, alignment: .leading)
+							.padding(.leading,9)
+						}
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.overlay(
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(width : 14, height: 7, alignment: .leading)
+							}, alignment: .topLeading
+						)
+						.overlay(
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(width : 3, height: 8, alignment: .leading)
+							}, alignment: .topLeading
+						)
+					}
+					.padding(.vertical,25)
+					.padding(.horizontal,46)
+					.frame(width : 108, height: 58)
+					.background(Color(hex: "#fdfdfd"))
+					.cornerRadius(10)
+					.overlay(RoundedRectangle(cornerRadius: 10)
+					.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+					.overlay(
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 14, height: 7, alignment: .leading)
+							.padding(.bottom, 0)
+							.padding(.leading, 0)
+						}, alignment: .bottomLeading
+					)
+					Spacer()
+					VStack(alignment: .leading, spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(height: 19)
+							.frame(maxWidth: .infinity, alignment: .leading)
+							.padding(.top,18)
+						}
+					}
+					.padding(.horizontal,46)
+					.frame(width : 108, height: 37, alignment: .leading)
+					.background(Color(hex: "#fdfdfd"))
+					.cornerRadius(10)
+					.overlay(RoundedRectangle(cornerRadius: 10)
+					.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+				}
+				.frame(height: 58)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,30)
+				.padding(.horizontal,38)
+				HStack(spacing: 0){
+					Text("Already have an account?")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 14))
+					Spacer()
+					Text("Log in")
+					.foregroundColor(Color(hex: "#333333"))
+					.font(.system(size: 14))
+					.fontWeight(.bold)
+				}
+				.frame(height: 14)
+				.frame(maxWidth: .infinity)
+				.padding(.horizontal,107)
+			}
+			Group{
+			}
+		}
+		.padding(.bottom,40)
+	}
+	.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+	.background(Color(hex: "#fdfdfd"))
+}
+.padding(.top,0.1)
+.padding(.bottom,0.1)
+.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+.background(Color(hex: "#FFFFFF"))
