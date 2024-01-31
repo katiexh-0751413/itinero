@@ -1,0 +1,367 @@
+VStack(alignment: .leading, spacing: 0){
+	ScrollView(){
+		VStack(alignment: .leading, spacing: 0) {
+			Group{
+				VStack(alignment: .leading, spacing: 0){
+					HStack(alignment: .top, spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 28, height: 11, alignment: .leading)
+							.padding(.top,17)
+						}
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 219, height: 30, alignment: .leading)
+							.padding(.trailing,24)
+						}
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 17, height: 10, alignment: .leading)
+							.padding(.top,17)
+							.padding(.trailing,5)
+						}
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 10, alignment: .leading)
+							.padding(.top,17)
+							.padding(.trailing,6)
+						}
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 24, height: 11, alignment: .leading)
+							.padding(.top,17)
+						}
+					}
+					.frame(height: 30)
+					.frame(maxWidth: .infinity, alignment: .top)
+					.padding(.bottom,23)
+					.padding(.horizontal,15)
+					HStack(alignment: .top, spacing: 0){
+						VStack(alignment: .leading, spacing: 0){
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(height: 15)
+								.frame(maxWidth: .infinity, alignment: .leading)
+								.padding(.top,12)
+							}
+						}
+						.padding(.horizontal,15)
+						.frame(width : 39, height: 27, alignment: .leading)
+						.cornerRadius(10)
+						.overlay(RoundedRectangle(cornerRadius: 10)
+						.stroke(Color(hex: "#d8dadc"), lineWidth: 1))
+						.padding(.trailing,27)
+						Text("teamLab Planets")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 28))
+						.fontWeight(.bold)
+						.frame(maxWidth: .infinity)
+						.padding(.top,14)
+					}
+					.frame(height: 42)
+					.frame(maxWidth: .infinity, alignment: .top)
+					.padding(.bottom,10)
+					.padding(.horizontal,38)
+					HStack(spacing: 0){
+						Text("4.6")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 16))
+						Spacer()
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 15, alignment: .leading)
+						}
+						Spacer()
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 15, alignment: .leading)
+						}
+						Spacer()
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 15, alignment: .leading)
+						}
+						Spacer()
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 15, alignment: .leading)
+						}
+						Spacer()
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 15, height: 15, alignment: .leading)
+						}
+						Spacer()
+						Text("See all reviews (24,436)")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 12))
+					}
+					.frame(height: 16)
+					.frame(maxWidth: .infinity)
+					.padding(.bottom,22)
+					.padding(.horizontal,47)
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(height: 1)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.background(Color(hex: "#eeeeee"))
+				}
+				.frame(height: 144)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color(hex: "#fbfbfd"))
+				.padding(.bottom,28)
+				Text("About")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 16))
+				.fontWeight(.bold)
+				.padding(.bottom,11)
+				.padding(.leading,39)
+				Text("teamLab Planets is a museum where you walk through water, and a garden where you become one with the flowers. It comprises 4 large-scale artwork spaces and 2 gardens created by art collective teamLab. People go barefoot and immerse their entire bodies in the vast artworks together with others. \nThe artworks change under the presence of people, blurring the perception of boundaries between the self and the works. Other people also create change in the artworks, blurring the boundaries between themselves and the works, and creating a continuity between the self, the art, and others.")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 13))
+				.frame(maxWidth: .infinity)
+				.fixedSize(horizontal: false, vertical: true)
+				.padding(.bottom,25)
+				.padding(.horizontal,39)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 15, height: 15, alignment: .leading)
+					}
+					Spacer()
+					Text("Buy tickets   ")
+					.foregroundColor(Color(hex: "#fdfdfd"))
+					.font(.system(size: 14))
+					.fontWeight(.bold)
+					Spacer()
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 15, height: 15, alignment: .leading)
+					}
+				}
+				.padding(.vertical,8)
+				.padding(.horizontal,113)
+				.frame(width : 350, height: 31)
+				.background(Color(hex: "#219ebc"))
+				.cornerRadius(10)
+				.padding(.bottom,23)
+				.padding(.horizontal,33)
+				VStack(alignment: .leading, spacing: 0){
+				}
+				.frame(height: 1)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color(hex: "#d8dadc"))
+				.padding(.bottom,34)
+				.padding(.horizontal,33)
+			}
+			Group{
+				Text("Images")
+				.foregroundColor(Color(hex: "#333333"))
+				.font(.system(size: 16))
+				.fontWeight(.bold)
+				.padding(.bottom,25)
+				.padding(.leading,40)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.cornerRadius(10)
+						.frame(width : 130, height: 130, alignment: .leading)
+					}
+					Spacer()
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.cornerRadius(10)
+						.frame(width : 130, height: 130, alignment: .leading)
+					}
+					Spacer()
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.cornerRadius(10)
+						.frame(width : 130, height: 130, alignment: .leading)
+					}
+				}
+				.frame(height: 130)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,46)
+				.padding(.horizontal,38)
+				VStack(alignment: .leading, spacing: 0){
+				}
+				.frame(height: 1)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color(hex: "#d8dadc"))
+				.padding(.bottom,22)
+				.padding(.horizontal,32)
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 40, height: 40, alignment: .leading)
+					}
+					Spacer()
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 40, height: 40, alignment: .leading)
+					}
+					Spacer()
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 40, height: 40, alignment: .leading)
+					}
+				}
+				.frame(height: 40)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,10)
+				.padding(.horizontal,48)
+				HStack(spacing: 0){
+					Text("Not interested")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 13))
+					.fontWeight(.bold)
+					Spacer()
+					Text("Add to itinerary")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 13))
+					.fontWeight(.bold)
+					Spacer()
+					Text("Add to wishlist")
+					.foregroundColor(Color(hex: "#000000"))
+					.font(.system(size: 13))
+					.fontWeight(.bold)
+				}
+				.frame(height: 13)
+				.frame(maxWidth: .infinity)
+				.padding(.bottom,34)
+				.padding(.horizontal,31)
+			}
+			Group{
+				VStack(alignment: .leading, spacing: 0){
+				}
+				.frame(height: 1)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color(hex: "#eeeeee"))
+				HStack(spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 40, height: 40, alignment: .leading)
+						.padding(.trailing,37)
+					}
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 40, height: 40, alignment: .leading)
+						.padding(.trailing,42)
+					}
+					VStack(alignment: .leading, spacing: 0){
+						VStack(alignment: .leading, spacing: 0){
+							VStack(alignment: .leading, spacing: 0){
+							}
+							.frame(height: 13)
+							.frame(maxWidth: .infinity, alignment: .leading)
+							.cornerRadius(2)
+							.overlay(RoundedRectangle(cornerRadius: 2)
+							.stroke(Color(hex: "#333333"), lineWidth: 2))
+						}
+						.frame(height: 13)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.overlay(
+							VStack(alignment: .leading, spacing: 0){
+							}
+							.frame(width : 13, height: 3, alignment: .leading)
+							.cornerRadius(2)
+							.overlay(RoundedRectangle(cornerRadius: 2)
+							.stroke(Color(hex: "#333333"), lineWidth: 2))
+							.padding(.bottom, 4)
+							.padding(.leading, -6), alignment: .bottomLeading
+						)
+						.padding(.top,8)
+					}
+					.padding(.horizontal,15)
+					.frame(width : 30, height: 21, alignment: .leading)
+					.cornerRadius(4)
+					.overlay(RoundedRectangle(cornerRadius: 4)
+					.stroke(Color(hex: "#333333"), lineWidth: 2))
+					.padding(.trailing,44)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 36, height: 33, alignment: .leading)
+						.padding(.trailing,48)
+					}
+					VStack(alignment: .leading, spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(height: 13)
+							.frame(maxWidth: .infinity, alignment: .leading)
+							.padding(.bottom,5)
+							.padding(.horizontal,5)
+						}
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.frame(height: 11)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.clipStroke(SpecificCornerShape(topLeft: 1, bottomLeft: 1, topRight: 1, bottomRight: 1), shapeStyle: Color(hex: "#33363f"), lineWidth: 2)
+					}
+					.frame(height: 29)
+					.frame(maxWidth: .infinity, alignment: .leading)
+				}
+				.padding(.vertical,15)
+				.padding(.horizontal,40)
+				.frame(height: 70)
+				.frame(maxWidth: .infinity)
+				.background(Color(hex: "#fbfbfd"))
+			}
+		}
+	}
+	.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+	.background(Color(hex: "#fdfdfd"))
+}
+.padding(.top,0.1)
+.padding(.bottom,0.1)
+.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+.background(Color(hex: "#FFFFFF"))
