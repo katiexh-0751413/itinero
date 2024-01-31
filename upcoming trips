@@ -1,0 +1,376 @@
+VStack(alignment: .leading, spacing: 0){
+	ScrollView(){
+		VStack(alignment: .leading, spacing: 0) {
+			HStack(alignment: .top, spacing: 0){
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 28, height: 11, alignment: .leading)
+					.padding(.top,17)
+				}
+				VStack(alignment: .leading, spacing: 0){
+				}
+				.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 219, height: 30, alignment: .leading)
+					.padding(.trailing,25)
+				}
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 17, height: 10, alignment: .leading)
+					.padding(.top,17)
+					.padding(.trailing,5)
+				}
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 15, height: 10, alignment: .leading)
+					.padding(.top,17)
+					.padding(.trailing,5)
+				}
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 24, height: 11, alignment: .leading)
+					.padding(.top,17)
+				}
+			}
+			.frame(height: 30)
+			.frame(maxWidth: .infinity, alignment: .top)
+			.padding(.bottom,46)
+			.padding(.horizontal,15)
+			Text("Upcoming Trips")
+			.foregroundColor(Color(hex: "#333333"))
+			.font(.system(size: 30))
+			.fontWeight(.bold)
+			.padding(.bottom,29)
+			.padding(.leading,42)
+			VStack(alignment: .leading, spacing: 0){
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.cornerRadius(10)
+					.frame(height: 165)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.bottom,9)
+				}
+				HStack(alignment: .top, spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						Text("Tokyo, Japan")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 18))
+						.fontWeight(.bold)
+						.padding(.bottom,8)
+						Text("March 12 - March 16")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 15))
+					}
+					.frame(height: 41)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.top,17)
+					.padding(.trailing,4)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.top,29)
+					}
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.overlay(
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 30, height: 30, alignment: .leading)
+						}, alignment: .topLeading
+					)
+					.overlay(
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 30, height: 30, alignment: .leading)
+						}, alignment: .topLeading
+					)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 25, height: 25, alignment: .leading)
+					}
+				}
+				.frame(height: 59)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.overlay(
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.bottom, 0)
+						.padding(.trailing, 21)
+					}, alignment: .bottomTrailing
+				)
+				.padding(.horizontal,11)
+			}
+			.padding(.bottom,17)
+			.frame(height: 250)
+			.frame(maxWidth: .infinity, alignment: .leading)
+			.background(Color(hex: "#fdfdfd"))
+			.cornerRadius(10)
+			.shadow(color: Color(hex: "#00000040"), radius: 4, x: 0, y: 4)
+			.padding(.bottom,20)
+			.padding(.horizontal,39)
+			VStack(alignment: .leading, spacing: 0){
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.cornerRadius(10)
+					.frame(height: 165)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.bottom,9)
+				}
+				HStack(alignment: .top, spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						Text("Maui, Hawaii")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 18))
+						.fontWeight(.bold)
+						.padding(.bottom,10)
+						Text("June 20 - June 25")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 15))
+					}
+					.frame(width : 129, height: 43, alignment: .leading)
+					.padding(.top,16)
+					Spacer()
+					VStack(alignment: .leading, spacing: 0){
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(height: 25)
+							.frame(maxWidth: .infinity, alignment: .leading)
+							.padding(.bottom,1)
+						}
+						VStack(alignment: .leading, spacing: 0){
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(height: 30)
+								.frame(maxWidth: .infinity, alignment: .leading)
+							}
+						}
+						.frame(height: 30)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.overlay(
+							URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+								image in
+								image
+								.resizable()
+								.frame(width : 30, height: 30, alignment: .leading)
+								.padding(.bottom, 0)
+								.padding(.leading, -19)
+							}, alignment: .bottomLeading
+						)
+					}
+					.frame(width : 32, height: 56, alignment: .leading)
+				}
+				.frame(height: 59)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.padding(.horizontal,11)
+			}
+			.padding(.bottom,17)
+			.frame(height: 250)
+			.frame(maxWidth: .infinity, alignment: .leading)
+			.background(Color(hex: "#fdfdfd"))
+			.cornerRadius(10)
+			.shadow(color: Color(hex: "#00000040"), radius: 4, x: 0, y: 4)
+			.padding(.bottom,20)
+			.padding(.horizontal,39)
+			VStack(alignment: .leading, spacing: 0){
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.cornerRadius(10)
+					.frame(height: 165)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.bottom,9)
+				}
+				HStack(alignment: .top, spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						Text("Ski  Trip to Whistler")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 18))
+						.fontWeight(.bold)
+						.padding(.bottom,6)
+						Text("December 8 - December 15")
+						.foregroundColor(Color(hex: "#333333"))
+						.font(.system(size: 15))
+					}
+					.frame(height: 39)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding(.top,16)
+					.padding(.trailing,4)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 30, height: 30, alignment: .leading)
+						.padding(.top,26)
+					}
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.overlay(
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 30, height: 30, alignment: .leading)
+						}, alignment: .topLeading
+					)
+					.overlay(
+						URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+							image in
+							image
+							.resizable()
+							.frame(width : 30, height: 30, alignment: .leading)
+						}, alignment: .topLeading
+					)
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 25, height: 25, alignment: .leading)
+					}
+				}
+				.frame(height: 56)
+				.frame(maxWidth: .infinity, alignment: .top)
+				.padding(.horizontal,11)
+			}
+			.padding(.bottom,20)
+			.frame(height: 250)
+			.frame(maxWidth: .infinity, alignment: .leading)
+			.background(Color(hex: "#fdfdfd"))
+			.cornerRadius(10)
+			.shadow(color: Color(hex: "#00000040"), radius: 4, x: 0, y: 4)
+			.padding(.bottom,34)
+			.padding(.horizontal,39)
+			VStack(alignment: .leading, spacing: 0){
+			}
+			.frame(height: 1)
+			.frame(maxWidth: .infinity, alignment: .leading)
+			.background(Color(hex: "#eeeeee"))
+			HStack(spacing: 0){
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 40, height: 40, alignment: .leading)
+				}
+				Spacer()
+				VStack(alignment: .leading, spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(height: 23)
+						.frame(maxWidth: .infinity, alignment: .leading)
+					}
+				}
+				.frame(width : 23, height: 23, alignment: .leading)
+				.overlay(
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(width : 5, height: 5, alignment: .leading)
+						.padding(.bottom, -4)
+						.padding(.trailing, -4)
+					}, alignment: .bottomTrailing
+				)
+				Spacer()
+				VStack(alignment: .leading, spacing: 0){
+					VStack(alignment: .leading, spacing: 0){
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.frame(height: 13)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.cornerRadius(2)
+						.overlay(RoundedRectangle(cornerRadius: 2)
+						.stroke(Color(hex: "#333333"), lineWidth: 2))
+					}
+					.frame(height: 13)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.overlay(
+						VStack(alignment: .leading, spacing: 0){
+						}
+						.frame(width : 13, height: 3, alignment: .leading)
+						.cornerRadius(2)
+						.overlay(RoundedRectangle(cornerRadius: 2)
+						.stroke(Color(hex: "#333333"), lineWidth: 2))
+						.padding(.bottom, 4)
+						.padding(.leading, -6), alignment: .bottomLeading
+					)
+					.padding(.top,8)
+				}
+				.padding(.horizontal,15)
+				.frame(width : 30, height: 21, alignment: .leading)
+				.cornerRadius(4)
+				.overlay(RoundedRectangle(cornerRadius: 4)
+				.stroke(Color(hex: "#333333"), lineWidth: 2))
+				Spacer()
+				URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+					image in
+					image
+					.resizable()
+					.frame(width : 36, height: 33, alignment: .leading)
+				}
+				Spacer()
+				VStack(alignment: .leading, spacing: 0){
+					URLImage(URL(string: "https://i.imgur.com/1tMFzp8.png")!){
+						image in
+						image
+						.resizable()
+						.frame(height: 13)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.padding(.bottom,5)
+						.padding(.horizontal,5)
+					}
+					VStack(alignment: .leading, spacing: 0){
+					}
+					.frame(height: 11)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.clipStroke(SpecificCornerShape(topLeft: 1, bottomLeft: 1, topRight: 1, bottomRight: 1), shapeStyle: Color(hex: "#33363f"), lineWidth: 2)
+				}
+				.frame(width : 23, height: 29, alignment: .leading)
+			}
+			.padding(.vertical,15)
+			.padding(.leading,39)
+			.padding(.trailing,49)
+			.frame(height: 70)
+			.frame(maxWidth: .infinity)
+			.background(Color(hex: "#fbfbfd"))
+		}
+	}
+	.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+	.background(Color(hex: "#fdfdfd"))
+}
+.padding(.top,0.1)
+.padding(.bottom,0.1)
+.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+.background(Color(hex: "#FFFFFF"))
